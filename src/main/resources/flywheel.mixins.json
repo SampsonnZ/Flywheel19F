@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.jozufozu.flywheel.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "BlockEntityRenderDispatcherAccessor",
+    "BlockEntityTypeMixin",
+    "BufferBuilderMixin",
+    "BufferUploaderMixin",
+    "CameraMixin",
+    "ClientLevelMixin",
+    "EntityTypeMixin",
+    "FixFabulousDepthMixin",
+    "FrustumMixin",
+    "GlStateManagerMixin",
+    "LevelRendererAccessor",
+    "LevelRendererMixin",
+    "PausedPartialTickAccessor",
+    "RenderTexturesMixin",
+    "RenderTypeMixin",
+    "atlas.AtlasDataMixin",
+    "atlas.SheetDataAccessor",
+    "light.LightUpdateMixin",
+    "light.NetworkLightUpdateMixin",
+    "matrix.Matrix3fMixin",
+    "matrix.Matrix4fMixin",
+    "matrix.PoseStackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
